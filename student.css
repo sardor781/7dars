@@ -1,0 +1,91 @@
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    margin-top: 170px;
+}
+
+.content2{
+    cursor: pointer;
+}
+
+.text{
+    color: #EF400F;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    width: 280px;
+    height: 70px;
+}
+.image{
+    margin-top: -6px;
+    cursor: pointer;
+}
+
+.image1{
+    cursor: pointer;
+}
+
+h1{
+    margin-top: 15px;
+    font-size: 24px;
+    color: #0E0D5D;
+}
+.group2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+h3{
+    font-size: 16px;
+    color: #BDBDBD;
+    margin-top: -10px;
+}
+.group3{
+    cursor: pointer;
+    background-color: #FF7D58;
+    width: 380px;
+    height: 75px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.group4{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: white;
+    font-size: 20px;
+}
+.group5{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 6px;
+    font-size: 20px;
+}
+.group6{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    justify-content: space-between;
+    padding: 12px 60px;
+}

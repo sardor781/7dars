@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+<img src="image.png" alt="logo" width="175" height="47">
+        <div class="language-selector">
+            <i class='bx bx-globe'></i>
+            <h2>O'zb</h2>
+        </div>
+    </header>
+    <main>
+        <div class="login-container">
+            <div class="top-section">
+                <img src="image.png" width="150" height="40" alt="">
+                <div class="offerta">
+                    <span>Offerta imzolash</span>
+                    <i class='bx bx-exit'></i>
+                </div>
+            </div>
+            <h1 class="welcome-text">Spacega xush kelibsiz</h1>
+            <div class="role-selection">
+                <div class="role-button student">O'quvchiman</div>
+                <div class="role-button parent">Ota-onaman</div>
+            </div>
+            <div class="input-container">
+                <input type="text" class="input-field" id="idInput" placeholder="Modeme Id">
+                <div class="password-container">
+                    <input type="password" class="input" id="passwordInput" placeholder="Password">
+                    <i class='bx bx-show' id="togglePassword"></i>
+                </div>
+                <div id="errorMessage" style="color: red; text-align: center; display: none;">Login yoki parol xato!
+                </div>
+            </div>
+            <div class="qr-code">
+                <span>Qr code orqali kirish</span>
+            </div>
+            <div class="submit-button">
+                <button id="submitBtn" disabled>Подтвердить</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
